@@ -12,7 +12,7 @@ So your computers has a message saying “some settings are managed by your orga
 
 ...............................
 
-2. Execute these commands then restart the computer
+2. Execute these commands 
 
 RD /S /Q “%WinDir%\System32\GroupPolicy”
 
@@ -23,3 +23,7 @@ gpupdate.exe /force
 
 
 ...............................
+
+3. Restart the computer
+
+----------
