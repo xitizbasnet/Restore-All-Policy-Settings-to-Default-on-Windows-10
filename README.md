@@ -15,6 +15,8 @@ So your computers has a message saying “some settings are managed by your orga
 2. Execute these commands then restart the computer
 
 RD /S /Q “%WinDir%\System32\GroupPolicy”
+
+
 RD /S /Q “%WinDir%\System32\GroupPolicyUsers”
 
 gpupdate.exe /force
